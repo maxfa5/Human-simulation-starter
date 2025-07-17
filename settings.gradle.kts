@@ -1,2 +1,2 @@
-rootProject.name = "Cloud-File-Storage"
+rootProject.name = "human-simulation-starter"
 

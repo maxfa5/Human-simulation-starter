@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.project",
+    "module": "human-simulation-starter",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "human-simulation-starter-1.0-SNAPSHOT-plain.jar",
+          "url": "human-simulation-starter-1.0-SNAPSHOT-plain.jar",
+          "size": 13273,
+          "sha512": "f7ab804579132d952130d4f14f184dbe9a183445a17afc843b105569dc5b4c2a6264694305976eb9ec7d212236ddf4a7078508c0f6dc3a341bc68cb2cc7df153",
+          "sha256": "9476cdca302f48f561c4fce1a4f09051498ba502ee8169bb0bd4e8bcca6924d8",
+          "sha1": "efe33f8db37dce66c4407e54ecf5e29914e149ac",
+          "md5": "aa0724f2cde478dadf183850a4918286"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-jpa",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "org.springframework.kafka",
+          "module": "spring-kafka",
+          "version": {
+            "requires": "3.2.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-validation",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "human-simulation-starter-1.0-SNAPSHOT-plain.jar",
+          "url": "human-simulation-starter-1.0-SNAPSHOT-plain.jar",
+          "size": 13273,
+          "sha512": "f7ab804579132d952130d4f14f184dbe9a183445a17afc843b105569dc5b4c2a6264694305976eb9ec7d212236ddf4a7078508c0f6dc3a341bc68cb2cc7df153",
+          "sha256": "9476cdca302f48f561c4fce1a4f09051498ba502ee8169bb0bd4e8bcca6924d8",
+          "sha1": "efe33f8db37dce66c4407e54ecf5e29914e149ac",
+          "md5": "aa0724f2cde478dadf183850a4918286"
+        }
+      ]
+    }
+  ]
+}

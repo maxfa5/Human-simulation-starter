@@ -10,8 +10,10 @@ import org.project.anotation.WeylandWatchingYou;
 import org.project.model.AuditMode;
 import org.project.service.AuditSenderKafkaService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 @Aspect
+@Component
 public class AuditAspect {
     @Autowired
     private AuditSenderKafkaService auditSenderKafkaService;
