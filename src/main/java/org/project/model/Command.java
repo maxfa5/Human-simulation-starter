@@ -4,7 +4,6 @@ import jakarta.validation.constraints.Size;
 import org.project.anotation.Iso8601Time;
 import lombok.Data;
 
-
 @Data
 public class Command {
     @Size(max = 1000)

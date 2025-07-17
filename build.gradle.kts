@@ -12,11 +12,12 @@ repositories {
 }
 
 dependencies {
-
+    implementation("org.springframework.boot:spring-boot-starter-aop")
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.springframework.boot:spring-boot-starter-security")
-    implementation("io.minio:minio:8.5.10")
+    implementation("org.springframework.kafka:spring-kafka")
+    implementation("org.springframework.boot:spring-boot-starter-validation")
     // // Hibernate
     // implementation("org.hibernate.orm:hibernate-core:6.4.4.Fina")
     // implementation("org.hibernate.orm:hibernate-community-dialects:6.4.4.Final")
