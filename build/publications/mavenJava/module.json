@@ -27,11 +27,11 @@
         {
           "name": "human-simulation-starter-1.0-SNAPSHOT-plain.jar",
           "url": "human-simulation-starter-1.0-SNAPSHOT-plain.jar",
-          "size": 22505,
-          "sha512": "5553b26f9a8d3a5097ac855480ea0738ec7102ab7697c448139f6ea347d7b5e8eaf3b44cc8b4f9d49ee22e837139682fd8c2510fc2b3b64228c6f25c5bad8624",
-          "sha256": "0d3de50a849eea01b5948550d410085b9b564fa27e7f85ecd2be59ce99d82fba",
-          "sha1": "1e2f6fa3fce651252bd1f91799b1b657f3deced5",
-          "md5": "aaf63c09ea5f70ad8e71ef7b65aa2ff6"
+          "size": 20262,
+          "sha512": "03cfbaf634ac3b089f7ad6088bb84e04ee5188637921b6f4b68c8ec1c93e69cf357f61e9ab8fbbca7887792e0e1ba49b7b46a68293154296becef24a23273490",
+          "sha256": "3a8e9b1965779b1a6cfa06130c2f46734efc8eda359c86fb69c24e89e28b49b0",
+          "sha1": "6013d4a5797233ba812d9ce6cd9cd0e0fe4bab85",
+          "md5": "d965887eb10b033fda108ad5bf0acaa6"
         }
       ]
     },
@@ -113,11 +113,11 @@
         {
           "name": "human-simulation-starter-1.0-SNAPSHOT-plain.jar",
           "url": "human-simulation-starter-1.0-SNAPSHOT-plain.jar",
-          "size": 22505,
-          "sha512": "5553b26f9a8d3a5097ac855480ea0738ec7102ab7697c448139f6ea347d7b5e8eaf3b44cc8b4f9d49ee22e837139682fd8c2510fc2b3b64228c6f25c5bad8624",
-          "sha256": "0d3de50a849eea01b5948550d410085b9b564fa27e7f85ecd2be59ce99d82fba",
-          "sha1": "1e2f6fa3fce651252bd1f91799b1b657f3deced5",
-          "md5": "aaf63c09ea5f70ad8e71ef7b65aa2ff6"
+          "size": 20262,
+          "sha512": "03cfbaf634ac3b089f7ad6088bb84e04ee5188637921b6f4b68c8ec1c93e69cf357f61e9ab8fbbca7887792e0e1ba49b7b46a68293154296becef24a23273490",
+          "sha256": "3a8e9b1965779b1a6cfa06130c2f46734efc8eda359c86fb69c24e89e28b49b0",
+          "sha1": "6013d4a5797233ba812d9ce6cd9cd0e0fe4bab85",
+          "md5": "d965887eb10b033fda108ad5bf0acaa6"
         }
       ]
     }
