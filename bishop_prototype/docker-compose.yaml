@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+
+  kafka:
+    image: confluentinc/cp-kafka:latest
+    container_name: kafka
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_KRAFT_MODE: "true"
+      CLUSTER_ID: b2e1a7c4-3f8b-4e2a-9d6e-7c1f2a5b8e9d
+      KAFKA_NODE_ID: 1
+      KAFKA_PROCESS_ROLES: broker,controller
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@localhost:9093
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092,CONTROLLER://0.0.0.0:9093
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      KAFKA_LOG_DIRS: /tmp/kraft-combined-logs
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+    command:
+      - sh
+      - -c
+      - |
+        if [ ! -f "/tmp/kraft-combined-logs/meta.properties" ]; then
+          kafka-storage format --ignore-formatted -t b2e1a7c4-3f8b-4e2a-9d6e-7c1f2a5b8e9d -c /etc/kafka/kafka.properties
+        fi
+        /etc/confluent/docker/run
