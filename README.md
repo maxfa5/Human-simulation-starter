@@ -28,7 +28,7 @@
 ### 1. Сборка стартера
 ```bash
 git clone <repository-url>
-cd Human-simulation-starter
+cd starter
 ./gradlew clean build publishToMavenLocal
 ```
 
@@ -78,7 +78,7 @@ public class YourApplication {
 **⚠️ Важно:** Перед запуском Bishop Prototype необходимо добавить стартер в локальный Maven репозиторий:
 
 ```bash
-# В корневой папке проекта (Human-simulation-starter)
+# В корневой папке проекта (starter)
 ./gradlew clean build publishToMavenLocal
 ```
 
