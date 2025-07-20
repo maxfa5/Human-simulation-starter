@@ -18,16 +18,10 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa:3.5.0")
     implementation("org.springframework.kafka:spring-kafka:3.2.0")
     implementation("org.springframework.boot:spring-boot-starter-validation:3.5.0")
-    // // Hibernate
-    // implementation("org.hibernate.orm:hibernate-core:6.4.4.Final")
-    // implementation("org.hibernate.orm:hibernate-community-dialects:6.4.4.Final")
-    // implementation("org.hibernate.validator:hibernate-validator:8.0.1.Final")
-    // implementation("org.springframework.boot:spring-boot-starter-thymeleaf:3.5.0")
-
-    // //Flyway
-    // implementation("org.flywaydb:flyway-core:10.14.0")
-    // implementation("org.flywaydb:flyway-database-postgresql:10.14.0")
-
+    implementation("org.springframework.boot:spring-boot-starter-actuator:3.5.0")
+    implementation("io.micrometer:micrometer-core:1.12.0")
+    implementation("io.micrometer:micrometer-registry-prometheus:1.12.0")
+   
     compileOnly("org.projectlombok:lombok:1.18.30")
     annotationProcessor("org.projectlombok:lombok:1.18.30")
 

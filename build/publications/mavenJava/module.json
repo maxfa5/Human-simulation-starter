@@ -27,11 +27,11 @@
         {
           "name": "human-simulation-starter-1.0-SNAPSHOT-plain.jar",
           "url": "human-simulation-starter-1.0-SNAPSHOT-plain.jar",
-          "size": 13273,
-          "sha512": "f7ab804579132d952130d4f14f184dbe9a183445a17afc843b105569dc5b4c2a6264694305976eb9ec7d212236ddf4a7078508c0f6dc3a341bc68cb2cc7df153",
-          "sha256": "9476cdca302f48f561c4fce1a4f09051498ba502ee8169bb0bd4e8bcca6924d8",
-          "sha1": "efe33f8db37dce66c4407e54ecf5e29914e149ac",
-          "md5": "aa0724f2cde478dadf183850a4918286"
+          "size": 22505,
+          "sha512": "5553b26f9a8d3a5097ac855480ea0738ec7102ab7697c448139f6ea347d7b5e8eaf3b44cc8b4f9d49ee22e837139682fd8c2510fc2b3b64228c6f25c5bad8624",
+          "sha256": "0d3de50a849eea01b5948550d410085b9b564fa27e7f85ecd2be59ce99d82fba",
+          "sha1": "1e2f6fa3fce651252bd1f91799b1b657f3deced5",
+          "md5": "aaf63c09ea5f70ad8e71ef7b65aa2ff6"
         }
       ]
     },
@@ -81,6 +81,27 @@
           }
         },
         {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-actuator",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-core",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-registry-prometheus",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
           "group": "org.postgresql",
           "module": "postgresql",
           "version": {
@@ -92,11 +113,11 @@
         {
           "name": "human-simulation-starter-1.0-SNAPSHOT-plain.jar",
           "url": "human-simulation-starter-1.0-SNAPSHOT-plain.jar",
-          "size": 13273,
-          "sha512": "f7ab804579132d952130d4f14f184dbe9a183445a17afc843b105569dc5b4c2a6264694305976eb9ec7d212236ddf4a7078508c0f6dc3a341bc68cb2cc7df153",
-          "sha256": "9476cdca302f48f561c4fce1a4f09051498ba502ee8169bb0bd4e8bcca6924d8",
-          "sha1": "efe33f8db37dce66c4407e54ecf5e29914e149ac",
-          "md5": "aa0724f2cde478dadf183850a4918286"
+          "size": 22505,
+          "sha512": "5553b26f9a8d3a5097ac855480ea0738ec7102ab7697c448139f6ea347d7b5e8eaf3b44cc8b4f9d49ee22e837139682fd8c2510fc2b3b64228c6f25c5bad8624",
+          "sha256": "0d3de50a849eea01b5948550d410085b9b564fa27e7f85ecd2be59ce99d82fba",
+          "sha1": "1e2f6fa3fce651252bd1f91799b1b657f3deced5",
+          "md5": "aaf63c09ea5f70ad8e71ef7b65aa2ff6"
         }
       ]
     }
